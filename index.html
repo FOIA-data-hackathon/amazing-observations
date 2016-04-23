@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="public/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">   
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+<div class="container">
+  <div class="title">
+    <h1>Exploring the Cost of a FOIA Request</h1>
+  </div>  
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="intro">
+      <p>How much do FOIA (Freedom of Information Act) requests cost the U.S. Government? How many requests does each department receive? How much does each department spend processing FOIA requests? What agencies are the most efficient at processing requests? Find out all of this and more in Michael and Molly’s Buzzfeed OpenLabs FOIA Data Hackathon Data Visualization!!!</p>
+      </div>
+    </div>
+  </div>
+
+<hr>
+
+<div class="article-title">  
+<h2>The U.S Government Spent $448,961,678 Processing FOIA Requests in 2015</h2>
+</div>   
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div id="req-pie-chart"></div> 
+    </div>
+  </div>
+
+<hr>
+
+<div class="article-title">  
+<h2>U.S Department/Agencies Processed 769,898 FOIA Requests in 2015</h2>
+</div>   
+    <div class="row">
+    <div class="col-md-10 col-md-offset-1">          
+  	  <div id="req-per-year-pie-chart"></div>
+  	</div>
+  </div>
+
+<hr>
+
+<div class="article-title">  
+<h2>The Cost Per Request is Highly Variable</h2>
+</div>   
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">          
+  	  <div id="cost-bar-chart"></div>
+  	</div>
+  </div>
+</div>
+	
+</body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="http://code.highcharts.com/highcharts.js"></script>
+  <script src="public/js/cost-bar-chart.js" type="text/javascript" charset="utf-8" async defer></script>
+  <script src="public/js/req-pie-chart.js" type="text/javascript" charset="utf-8" async defer></script>
+  <script src="public/js/req-per-year-pie-chart.js" type="text/javascript" charset="utf-8" async defer></script>  
+</html>
