@@ -16,7 +16,7 @@ $('#req-pie-chart').highcharts({
 credits: {
             enabled: true,
             href: "http://www.foia.gov/",
-            text: "foai.gov"
+            text: "foia.gov"
   },
       labels: {
         style: {

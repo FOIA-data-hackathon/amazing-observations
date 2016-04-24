@@ -20,7 +20,7 @@ $(function () {
         credits: {
             enabled: true,
             href: "http://www.foia.gov/",
-            text: "foai.gov"
+            text: "foia.gov"
         },
         xAxis: {
             title: {
